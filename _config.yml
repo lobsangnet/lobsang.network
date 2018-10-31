@@ -78,5 +78,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:lobsangnet/lobsang.network.git
+  - type: netlify
+    token: 00b706136159eaea7460db4fb94f8ac7d95f4201cef10b37c6dd09cee6942636
+    site_id: sad-mccarthy-06e917
