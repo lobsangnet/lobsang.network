@@ -1,8 +1,9 @@
 ---
-title: "Hello from Lobsang"
+title: Hello from Lobsang
 date: 2018-11-02 14:00:35
-tags:
+tags: lobsang
 ---
+
 
 This project was prototyped during the Node Knockout hackathon 2018.
 
