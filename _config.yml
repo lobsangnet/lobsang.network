@@ -43,6 +43,16 @@ highlight:
   auto_detect: false
   tab_replace:
   
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+
+sitemap:
+  path: sitemap.xml
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -72,7 +82,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+plugins:
+  - hexo-generator-feed
+  - hexo-generator-sitemap
+
+theme: dev-dark-theme
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
