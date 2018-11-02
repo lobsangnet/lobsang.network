@@ -8,6 +8,9 @@
     "hexo": "hexo",
     "lint": "standard",
     "lint:fix": "standard --fix",
+    "new:draft": "hexo new draft ",
+    "new:page": "hexo new page ",
+    "new:post": "hexo new post ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
