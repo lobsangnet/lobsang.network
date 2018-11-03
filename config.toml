@@ -1,0 +1,4 @@
+baseURL = "https://lobsang.network/"
+languageCode = "en-gb"
+title = "Lobsang Network"
+theme = "future-imperfect"
